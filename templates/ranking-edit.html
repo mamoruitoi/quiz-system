@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>戸山祭2022 クイズランキング入力</title>
+        <link rel="stylesheet" href="./static/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $("a#entry").bind("click", function(){
+                    $.getJSON("/_ranking-processing", {
+                        player: $('input[name="player"]').val()
+                    });
+                    var text = document.getElementById("input");
+                    text.value = "";
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="ranking-edit">
+            <h1>戸山祭2022 クイズランキング入力</h1>
+            <p><input type="text" size="10" name="player" id="input"> <a href="#" id="entry">入力</a></p>
+        </div>
+    </body>
+</html>

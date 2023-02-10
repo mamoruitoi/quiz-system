@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>戸山祭2022 クイズランキング</title>
+        <link rel="stylesheet" href="./static/main.css">
+        <script src="https://unpkg.com/phosphor-icons"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+        $(function(){
+            $('a#update').bind('click', function(){
+                $.getJSON('/_update-ranking', {}, function(data){
+                    var ranking_data = document.getElementById("ranking-table");
+                    change = function(d){
+                        para = ""
+                        for (i = 0; i < d.score.length; i++){
+                            var name = d["score"][i]["name"];
+                            var points = d["score"][i]["points"];
+                            if (i == 0){
+                                para += '<p class="first"><i class="ph-crown"></i>'
+                            } else if (i == 1){
+                                para += '<p class="second"><i class="ph-crown-simple"></i>'
+                            } else if (i == 2){
+                                para += '<p class="third"><i class="ph-crown-simple"></i>'
+                            } else {
+                                para += '<p class="ordinary">'
+                            }
+                            para += '<span class="username">' + name + '</span><span class="points">' + points + '</span></p>'
+                        }
+                        return para
+                    };
+                    ranking_data.innerHTML = change(data);
+                });
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div id="ranking-view">
+            <h1>戸山祭2022 クイズランキング</h1>
+            <p><a href="#" id="update">更新</a></p>
+            <div id="ranking-table">
+            </div>
+        </div>
+    </body>
+</html>

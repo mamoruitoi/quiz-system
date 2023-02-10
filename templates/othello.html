@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>戸山祭2022 漢字オセロ</title>
+        <link rel="stylesheet" href="./static/main.css">
+        <script src="https://unpkg.com/phosphor-icons"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $("div.piece").bind("click", function(){
+                    $.getJSON("/_othello-processing", {
+                        id: $(this).attr("id"),
+                        class: $(this).attr("class")
+                    }, function(data){
+                        for (i = 0; i < data.othello_board.length; i++){
+                            var div_name = "div#pp" + data.othello_board[i].id;
+                            if ($(div_name).hasClass("white")) {
+                                $(div_name).removeClass("white");
+                            } else if ($(div_name).hasClass("red")) {
+                                $(div_name).removeClass("red");
+                            } else if ($(div_name).hasClass("blue")) {
+                                $(div_name).removeClass("blue");
+                            } else if ($(div_name).hasClass("gold")) {
+                                $(div_name).removeClass("gold");
+                            }
+                            $(div_name).addClass(data.othello_board[i].status);
+                        }
+                        $("span#number1").text(data.score_board[0].score);
+                        $("span#number2").text(data.score_board[1].score);
+                    });
+                });
+            });
+            $(function(){
+                $("div.piece").bind("click", function(){
+                    $.getJSON("/_othello-processing", {
+                        id: $(this).attr("id"),
+                        class: $(this).attr("class")
+                    }, function(data){
+                        for (i = 0; i < data.othello_board.length; i++){
+                            var div_name = "div#pp" + data.othello_board[i].id;
+                            if ($(div_name).hasClass("white")) {
+                                $(div_name).removeClass("white");
+                            } else if ($(div_name).hasClass("red")) {
+                                $(div_name).removeClass("red");
+                            } else if ($(div_name).hasClass("blue")) {
+                                $(div_name).removeClass("blue");
+                            } else if ($(div_name).hasClass("gold")) {
+                                $(div_name).removeClass("gold");
+                            }
+                            $(div_name).addClass(data.othello_board[i].status);
+                        }
+                        $("span#number1").text(data.score_board[0].score);
+                        $("span#number2").text(data.score_board[1].score);
+                    });
+                });
+            });
+        </script>
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'puh8bjd',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+        </script>
+    </head>
+    <body>
+        <h1>戸山祭2022 漢字オセロ</h1>
+        <div id="main">
+            <div id="othello-board">
+{% for piece in othello_board %}
+    {% set isDefault = "default" if loop.index in [15, 16, 21, 22] else "normal" %}
+                <div id="p{{ piece.id }}" class="square">
+                    <div id="pp{{ piece.id }}" class="piece {{ piece.status }} {{ isDefault }}">
+                        <p class="number">{{ piece.id }}</p>
+                        <p class="reading">{{ piece.reading }}</p>
+                        <p class="char">{{ piece.char }}</p>
+                    </div>
+                </div>
+{% endfor %}
+                <script>
+                    var kanji_list = document.getElementsByClassName("char");
+                    for (i = 0; i < kanji_list.length; i++){
+                        var kanji = kanji_list[i].innerHTML;
+                        kanji = kanji.replace(/([\u4E00-\u9FFF])/gi,"<span class=\"kanji\">$1</span>");
+                        document.getElementsByClassName("char")[i].innerHTML = kanji;
+                    }
+                </script>
+            </div>
+            <div id="score-board">
+{% for team in score_board %}
+                <div id="name{{ loop.index }}"><p class="name"><span class="name">{{ team.name }}</span></p></div>
+                <div id="score{{ loop.index }}"><p class="score"><span id="number{{ loop.index }}">{{ team.score }}</span><span class="mai">枚</span></p></div>
+{% endfor %}
+            </div>
+            <div id="pass"></div>
+        </div>
+    </body>
+</html>

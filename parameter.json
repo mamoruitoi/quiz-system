@@ -1,0 +1,509 @@
+{
+    "score": [
+        {
+            "name": "森（2B）",
+            "points": 19
+        },
+        {
+            "name": "奥泉bot（3G）",
+            "points": 19
+        },
+        {
+            "name": "奥泉（3A）",
+            "points": 14
+        },
+        {
+            "name": "中野（1G）",
+            "points": 13
+        },
+        {
+            "name": "サイトウ飛鳥（1H）",
+            "points": 12
+        },
+        {
+            "name": "Umi（1A）",
+            "points": 12
+        },
+        {
+            "name": "大澤（3G）",
+            "points": 11
+        },
+        {
+            "name": "大石（2H）",
+            "points": 11
+        },
+        {
+            "name": "尾崎正明（1F）",
+            "points": 9
+        },
+        {
+            "name": "橋本（3A）",
+            "points": 8
+        },
+        {
+            "name": "元木（3A）",
+            "points": 8
+        },
+        {
+            "name": "カワサキ（3G）",
+            "points": 8
+        },
+        {
+            "name": "SY（2H）",
+            "points": 8
+        },
+        {
+            "name": "中中（1G）",
+            "points": 8
+        },
+        {
+            "name": "和三盆（1E）",
+            "points": 8
+        },
+        {
+            "name": "尾亦（2H）",
+            "points": 7
+        },
+        {
+            "name": "賀喜遥香（1H）",
+            "points": 7
+        },
+        {
+            "name": "マツオカ（1G）",
+            "points": 7
+        },
+        {
+            "name": "ユウダイ（1A）",
+            "points": 6
+        },
+        {
+            "name": "中々（1G）",
+            "points": 6
+        },
+        {
+            "name": "タナカ（1G）",
+            "points": 6
+        },
+        {
+            "name": "スエズ運河（1H）",
+            "points": 6
+        },
+        {
+            "name": "和田まあや（1H）",
+            "points": 5
+        },
+        {
+            "name": "根本（2A）",
+            "points": 5
+        },
+        {
+            "name": "YSB（1G）",
+            "points": 5
+        },
+        {
+            "name": "ケアレ・スミス（1E）",
+            "points": 5
+        },
+        {
+            "name": "イワタ（1A）",
+            "points": 4
+        },
+        {
+            "name": "太陽（1H）",
+            "points": 4
+        },
+        {
+            "name": "小池（2H）",
+            "points": 4
+        },
+        {
+            "name": "柳瀬（2F）",
+            "points": 4
+        },
+        {
+            "name": "TY（2H）",
+            "points": 4
+        },
+        {
+            "name": "フジイ（3C）",
+            "points": 4
+        },
+        {
+            "name": "",
+            "points": 4
+        },
+        {
+            "name": "朴（1C）",
+            "points": 3
+        },
+        {
+            "name": "山畑（2G）",
+            "points": 3
+        },
+        {
+            "name": "ユウト（3H）",
+            "points": 3
+        },
+        {
+            "name": "サイトウ（1G）",
+            "points": 3
+        },
+        {
+            "name": "ウィル・スミス（1H）",
+            "points": 3
+        },
+        {
+            "name": "牛若丸（2B）",
+            "points": 2
+        },
+        {
+            "name": "島田（1C）",
+            "points": 2
+        },
+        {
+            "name": "翁長（3D）",
+            "points": 2
+        },
+        {
+            "name": "村（1H）",
+            "points": 2
+        },
+        {
+            "name": "まっすー（3C）",
+            "points": 2
+        },
+        {
+            "name": "まいける（1D）",
+            "points": 2
+        },
+        {
+            "name": "やなせ（2F）",
+            "points": 2
+        },
+        {
+            "name": "大野（1H）",
+            "points": 2
+        },
+        {
+            "name": "水田（2F）",
+            "points": 1
+        },
+        {
+            "name": "かぐちゃん（1A）",
+            "points": 1
+        },
+        {
+            "name": "池島（1C）",
+            "points": 1
+        },
+        {
+            "name": "金森（1C）",
+            "points": 1
+        },
+        {
+            "name": "孫（1C）",
+            "points": 1
+        },
+        {
+            "name": "岡本（3A）",
+            "points": 1
+        },
+        {
+            "name": "伊達皓希（1H）",
+            "points": 1
+        },
+        {
+            "name": "原辰徳（1H）",
+            "points": 1
+        },
+        {
+            "name": "増浦（3C）",
+            "points": 1
+        },
+        {
+            "name": "帰宅部（1F）",
+            "points": 1
+        },
+        {
+            "name": "キヨ（1F）",
+            "points": 1
+        },
+        {
+            "name": "あたま（1F）",
+            "points": 1
+        },
+        {
+            "name": "ぼぶ（3D）",
+            "points": 1
+        },
+        {
+            "name": "じょんそん（3C）",
+            "points": 1
+        },
+        {
+            "name": "むつみ（1D）",
+            "points": 1
+        },
+        {
+            "name": "ごんざれす（3D）",
+            "points": 1
+        },
+        {
+            "name": "原辰徳（3D）",
+            "points": 1
+        },
+        {
+            "name": "へいはちろん（1D）",
+            "points": 1
+        },
+        {
+            "name": "とや（2G）",
+            "points": 1
+        },
+        {
+            "name": "まっつー（2A）",
+            "points": 1
+        },
+        {
+            "name": "SUN（1H）",
+            "points": 1
+        },
+        {
+            "name": "楽人（1F）",
+            "points": 1
+        },
+        {
+            "name": "ゲスト（1A）",
+            "points": 1
+        }
+    ],
+    "othello_board": [
+        {
+            "id": 1,
+            "status": "white",
+            "reading": "かじか",
+            "char": "鮖"
+        },
+        {
+            "id": 2,
+            "status": "white",
+            "reading": "くえ",
+            "char": "九絵"
+        },
+        {
+            "id": 3,
+            "status": "white",
+            "reading": "このしろ",
+            "char": "鮗"
+        },
+        {
+            "id": 4,
+            "status": "white",
+            "reading": "はも",
+            "char": "鱧"
+        },
+        {
+            "id": 5,
+            "status": "red",
+            "reading": "さば",
+            "char": "鯖"
+        },
+        {
+            "id": 6,
+            "status": "blue",
+            "reading": "こち",
+            "char": "鯒"
+        },
+        {
+            "id": 7,
+            "status": "white",
+            "reading": "さわら",
+            "char": "鰆"
+        },
+        {
+            "id": 8,
+            "status": "white",
+            "reading": "ます",
+            "char": "鱒"
+        },
+        {
+            "id": 9,
+            "status": "red",
+            "reading": "こい",
+            "char": "鯉"
+        },
+        {
+            "id": 10,
+            "status": "red",
+            "reading": "うなぎ",
+            "char": "鰻"
+        },
+        {
+            "id": 11,
+            "status": "red",
+            "reading": "なまず",
+            "char": "鯰"
+        },
+        {
+            "id": 12,
+            "status": "red",
+            "reading": "いわし",
+            "char": "鰯"
+        },
+        {
+            "id": 13,
+            "status": "white",
+            "reading": "かつお",
+            "char": "鰹"
+        },
+        {
+            "id": 14,
+            "status": "white",
+            "reading": "さけ",
+            "char": "鮭"
+        },
+        {
+            "id": 15,
+            "status": "red",
+            "reading": "",
+            "char": ""
+        },
+        {
+            "id": 16,
+            "status": "red",
+            "reading": "",
+            "char": ""
+        },
+        {
+            "id": 17,
+            "status": "red",
+            "reading": "たい",
+            "char": "鯛"
+        },
+        {
+            "id": 18,
+            "status": "red",
+            "reading": "ひらめ",
+            "char": "鮃"
+        },
+        {
+            "id": 19,
+            "status": "white",
+            "reading": "たら",
+            "char": "鱈"
+        },
+        {
+            "id": 20,
+            "status": "red",
+            "reading": "さめ",
+            "char": "鮫"
+        },
+        {
+            "id": 21,
+            "status": "red",
+            "reading": "",
+            "char": ""
+        },
+        {
+            "id": 22,
+            "status": "red",
+            "reading": "",
+            "char": ""
+        },
+        {
+            "id": 23,
+            "status": "white",
+            "reading": "まぐろ",
+            "char": "鮪"
+        },
+        {
+            "id": 24,
+            "status": "white",
+            "reading": "ぶり",
+            "char": "鰤"
+        },
+        {
+            "id": 25,
+            "status": "white",
+            "reading": "きす",
+            "char": "鱚"
+        },
+        {
+            "id": 26,
+            "status": "blue",
+            "reading": "たこ",
+            "char": "蛸"
+        },
+        {
+            "id": 27,
+            "status": "red",
+            "reading": "さんま",
+            "char": "秋刀魚"
+        },
+        {
+            "id": 28,
+            "status": "white",
+            "reading": "あじ",
+            "char": "鯵"
+        },
+        {
+            "id": 29,
+            "status": "white",
+            "reading": "ほっけ",
+            "char": "𩸽"
+        },
+        {
+            "id": 30,
+            "status": "white",
+            "reading": "ふな",
+            "char": "鮒"
+        },
+        {
+            "id": 31,
+            "status": "white",
+            "reading": "すずき",
+            "char": "鱸"
+        },
+        {
+            "id": 32,
+            "status": "white",
+            "reading": "かれい",
+            "char": "鰈"
+        },
+        {
+            "id": 33,
+            "status": "white",
+            "reading": "かんぱち",
+            "char": "間八"
+        },
+        {
+            "id": 34,
+            "status": "white",
+            "reading": "しいら",
+            "char": "鱪"
+        },
+        {
+            "id": 35,
+            "status": "white",
+            "reading": "かわはぎ",
+            "char": "鮍"
+        },
+        {
+            "id": 36,
+            "status": "white",
+            "reading": "わかさぎ",
+            "char": "公魚"
+        }
+    ],
+    "score_board": [
+        {
+            "name": "A",
+            "score": 13
+        },
+        {
+            "name": "B",
+            "score": 2
+        }
+    ],
+    "pass_number": 0
+}
